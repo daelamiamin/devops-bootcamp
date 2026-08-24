@@ -1,2 +1,3 @@
 # taip notes pembelajaran
-## tambah try
+
+# tambah baris: - Read = git log + git diff
