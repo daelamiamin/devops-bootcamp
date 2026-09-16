@@ -1,0 +1,10 @@
+[
+    [
+        "nat-0287f20c231fc9375",
+        "deleted"
+    ]
+]
+[]
+[
+    "316255800915.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcmap/daelami"
+]
