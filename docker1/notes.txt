@@ -1,0 +1,17 @@
+Docker version 29.6.2, build dfc4efb
+IMAGE                                                                          ID             DISK USAGE   CONTENT SIZE   EXTRA
+316255800915.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/daelami:v1   cbaaa1e0c7f9        105MB         31.6MB        
+alpine:latest                                                                  294b683cb724         13MB         3.94MB        
+app:kecil                                                                      cbaaa1e0c7f9        105MB         31.6MB        
+ghcr.io/infratify/arena-avatar:latest                                          398f87c92ca6        201MB         49.1MB        
+ghcr.io/infratify/arena-server:latest                                          42a0c983d4ab        195MB         48.7MB        
+hello-world:latest                                                             5e2309035332       25.9kB         9.49kB        
+infratify/card:latest                                                          2414f6668e83         81MB         23.1MB        
+infratify/web:v1                                                               df30d78a2e80       93.6MB         26.3MB   U    
+nginx:alpine                                                                   df221db836e1       94.4MB         27.2MB        
+nginx:latest                                                                   abe47724e466        242MB         66.3MB        
+redis:latest                                                                   6f81e8915c60        213MB         57.6MB        
+web:latest                                                                     df30d78a2e80       93.6MB         26.3MB   U    
+web:v1                                                                         df30d78a2e80       93.6MB         26.3MB   U    
+CONTAINER ID   IMAGE     COMMAND                  CREATED      STATUS                     PORTS                  NAMES
+64f72cb441ac   web:v1    "/docker-entrypoint.…"   5 days ago   Exited (255) 2 hours ago   0.0.0.0:8080->80/tcp   web

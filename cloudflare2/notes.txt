@@ -1,4 +1,6 @@
 elastic-ip: 47.130.231.133
 web: web.rencam.my (A record, proxied)
 tunnel: cloudflare2-amali9.rencam.my
+<<<<<<< HEAD
 ssl-mode: Flexible
+>>>>>>> 1663ea6990b70f16af190c69a4d87582cc4edfd9
