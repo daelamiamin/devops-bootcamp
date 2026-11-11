@@ -1,0 +1,4 @@
+IMAGE       ID             DISK USAGE   CONTENT SIZE   EXTRA
+app:kecil   cbaaa1e0c7f9        105MB         31.6MB        
+app:v1      ebdadb7df131       1.83GB          474MB   U    
+app:v2      d4a2016729ee        105MB         31.6MB   U    
