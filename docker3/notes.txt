@@ -1,0 +1,10 @@
+316255800915.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/daelami:v1   cbaaa1e0c7f9        105MB         31.6MB   U    
+NETWORK ID     NAME            DRIVER    SCOPE
+bb5406983dda   arena           bridge    local
+43a772e003ac   arena_default   bridge    local
+0e06712c2b92   bridge          bridge    local
+e0b6d26a99f1   host            host      local
+07a4dad130ef   none            null      local
+DRIVER    VOLUME NAME
+local     arena_me
+local     me
