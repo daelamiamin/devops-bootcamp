@@ -1,0 +1,23 @@
+services:
+  profile:
+    image: redis
+    volumes:
+      - me:/data
+
+  server:
+    image: ghcr.io/infratify/arena-server
+
+  avatar:
+    image: ghcr.io/infratify/arena-avatar
+    ports:
+      - "8080:8080"
+    environment:
+      NAME: daelami
+      COLOR: cyan
+      SERVER: 54.179.128.219:3000
+    depends_on:
+      - profile
+
+
+volumes:
+  me:
